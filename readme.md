@@ -7,11 +7,6 @@ Version 1.0
 
 Version 1.0 (2015)
 
--------
-Summary
--------
-Here's a summary.
-
 -------------------
 Description of Data
 -------------------
