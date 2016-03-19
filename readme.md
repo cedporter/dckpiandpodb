@@ -18,6 +18,19 @@ Why Combine the Data?
 ---------------------
 By combining these datasets, we hoped to establish whether or not any correlation exists between the total purchase orders of a particular agency and their performance metrics performance, i.e., does money spent equal performance gains?
 
+-------------
+Data Analysis
+-------------
+For analysis of the data present in the two datasets, we combined the two datasets on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” performance rating. We first calculated the percentage of "Fully Achieved" performance rating in with respect to the total performance rating amongst categories including "Fully Achieved, Partially Achieved, and Not Achieved." A new excel sheet was then created containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance rating. Histograms for each of the variables was the plotted using the R instruction: hist (sample$P.O..Totals) and hist (sample$Percentages).
+	
+Descriptive Analysis: We used the command ‘summary ()’ in R to determine the descriptive analysis and ‘hist ()’ to plot the histogram.
+Commands: summary(sample$P.O..Totals) ; summary(sample$Fully.Achieved.Percentages)
+For the variable: P.O.Totals: Mean = 68420000; Median = 15090000
+For the variable: Fully Achieved Percentages: Mean= 53.09; Median = 51.80
+
+In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: ‘plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)’. The figures are as below:
+
+
 ----------
 References
 ----------
