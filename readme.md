@@ -29,7 +29,7 @@ For the variable: Fully Achieved Percentages: Mean= 53.09; Median = 51.80
 
 In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: ‘plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)’. The figures are as below:
 
-![histogram of total amount spent](assets/pototalshistogram.png)
+<img src="assets/pototalshistogram.png" alt="histogram of total amount spent" style="width: 80%;"/>
 Figure 1. Histogram of total amount spent.
 
 ![Histogram of fully achieved performances](assets/fullyachievedbyagency.png)
