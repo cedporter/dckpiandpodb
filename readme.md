@@ -1,12 +1,3 @@
-<style>
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%; }
-</style>
-
-
 #DC KPI and PO DB
 A Combination of DC Purchase Order and Performance Metrics Data
 
@@ -32,20 +23,25 @@ Data Analysis
 For analysis of the data present in the two datasets, we combined the two datasets on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” performance rating. We first calculated the percentage of "Fully Achieved" performance rating in with respect to the total performance rating amongst categories including "Fully Achieved, Partially Achieved, and Not Achieved." A new excel sheet was then created containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance rating. Histograms for each of the variables was the plotted using the R instruction: hist (sample$P.O..Totals) and hist (sample$Percentages).
 	
 Descriptive Analysis: We used the command ‘summary ()’ in R to determine the descriptive analysis and ‘hist ()’ to plot the histogram.
-Commands: summary(sample$P.O..Totals) ; summary(sample$Fully.Achieved.Percentages)
-For the variable: P.O.Totals: Mean = 68420000; Median = 15090000
-For the variable: Fully Achieved Percentages: Mean= 53.09; Median = 51.80
+Commands: 
+    summary(sample$P.O..Totals)
+    summary(sample$Fully.Achieved.Percentages)
+
+Measure|Mean|Median
+-------|----|------
+Purchase Orders|68420000|15090000
+Fully Achieved Percentages|53.09|51.80
 
 In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: ‘plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)’. The figures are as below:
 
-<img src="assets/pototalshistogram.png" alt="histogram of total amount spent" class="displayed"/>
-Figure 1. Histogram of total amount spent.
+![histogram of total amount spent](assets/pototalshistogram.png)
+*Figure 1. Histogram of total amount spent.*
 
 ![Histogram of fully achieved performances](assets/fullyachievedbyagency.png)
-Figure 2. Histogram of fully achieved performances.
+*Figure 2. Histogram of fully achieved performances.*
 
 ![Relation between amount spent and performance metric](assets/scatterplot.png )
-Figure 3. Relation between amount spent and performance metric.
+*Figure 3. Relation between amount spent and performance metric.*
 
 As seen in figure three, there is no direct correlation between the total amount spent by an agency and the percentage of the “Fully Achieved Performances” in accordance to the overall performance metrics. According to the graph, some agencies do show higher percentage of “Fully Achieved” performances when the amount spent is greater than the previous agency, however this trend is not consistent for all agencies and hence we can conclude a particular correlation.
 
