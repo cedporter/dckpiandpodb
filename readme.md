@@ -22,7 +22,7 @@ Data Analysis
 -------------
 For analysis of the data present in the two datasets, we combined them on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” KPIs. First, recognizing the extraordinarily wide range of PO Totals, we narrowed our scope to only review Agencies with totals between $10 and $100 million in PO Totals. We then calculated the percentage of "Fully Achieved" KPIs in with respect to the total performance rating amongst categories "Fully Achieved", "Partially Achieved", and "Not Achieved." We then created a new Excel worksheet containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance ratings.
 	
-##Descriptive Analysis
+###Descriptive Analysis
 To begin the analysis, we used the command `summary()` in R to determine the descriptive analysis and `hist()` to plot histograms (Figures 1 and 2). Finally, in order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: `plot()` (Figure 3).
 
 **Commands:**
@@ -33,7 +33,7 @@ To begin the analysis, we used the command `summary()` in R to determine the des
     hist(sample$Percentages)
     plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)
 
-##Summary of Data
+###Summary of Data
 Measure|Mean|Median
 -------|----|------
 Purchase Orders|$45,342,624.38|$40,327,080.93
