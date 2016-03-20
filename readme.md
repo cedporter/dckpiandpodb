@@ -52,7 +52,7 @@ Fully Achieved Key Performance Indicators|64.93%|61.77%
 ----------
 Conclusion
 ----------
-As seen in figure three, there is a slight negative trend present in the relationship between money spent and performance metric achievement. However, with such wide variations, it is likely that this trend is not significant. Further analysis across more of the data available is certainly warranted to explore possible trends.
+As seen in Figure three, there is a slight negative trend present in the relationship between money spent and performance metric achievement. However, with such wide variations, it is likely that this trend is not significant. This work represents just a first, cursory exploration into the combined datasets including in the SQL file in this repo. Further analysis across more of the data available is certainly warranted to explore possible trends.
 
 ----------
 References
