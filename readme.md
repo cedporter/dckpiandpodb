@@ -20,20 +20,22 @@ By combining these datasets, we hoped to establish whether or not any correlatio
 -------------
 Data Analysis
 -------------
-For analysis of the data present in the two datasets, we combined the two datasets on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” performance rating. We first calculated the percentage of "Fully Achieved" performance rating in with respect to the total performance rating amongst categories including "Fully Achieved, Partially Achieved, and Not Achieved." A new excel sheet was then created containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance rating. Histograms for each of the variables was the plotted using the R instruction: hist (sample$P.O..Totals) and hist (sample$Percentages).
+For analysis of the data present in the two datasets, we combined the two datasets on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” performance rating. First, recognizing the extraordinarily wide range of PO Totals, we narrowed our scope to only review Agencies with totals between $10 and $100 million in PO Totals. We then calculated the percentage of "Fully Achieved" performance rating in with respect to the total performance rating amongst categories "Fully Achieved", "Partially Achieved", and "Not Achieved." We then created a new Excel worksheet containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance rating. Histograms for each of the variables was the plotted using the R instruction: `hist (sample$P.O..Totals)` and `hist (sample$Percentages)`.
 	
-Descriptive Analysis: We used the command ‘summary ()’ in R to determine the descriptive analysis and ‘hist ()’ to plot the histogram.
-Commands: 
+_Descriptive Analysis:_ We used the command `summary ()` in R to determine the descriptive analysis and `hist ()` to plot the histogram.
+
+_Commands:_ 
 
     summary(sample$P.O..Totals)
     summary(sample$Fully.Achieved.Percentages)
 
+_Results_
 Measure|Mean|Median
 -------|----|------
 Purchase Orders|$45,342,624.38|$40,327,080.93
 Fully Achieved Key Performance Indicators|64.93%|61.77%
 
-In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: ‘plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)’. The figures are as below:
+In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: `plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)`. The resultant figures are included below:
 
 ![histogram of total amount spent](assets/pototalshistogram.png)
 *Figure 1. Histogram of total amount spent.*
@@ -44,7 +46,7 @@ In order to then determine the relation between the amount spent by an agency an
 ![Relation between amount spent and performance metric](assets/scatterplot.png )
 *Figure 3. Relation between amount spent and performance metric.*
 
-As seen in figure three, there is no direct correlation between the total amount spent by an agency and the percentage of the “Fully Achieved Performances” in accordance to the overall performance metrics. According to the graph, some agencies do show higher percentage of “Fully Achieved” performances when the amount spent is greater than the previous agency, however this trend is not consistent for all agencies and hence we can conclude a particular correlation.
+As seen in figure three, there is a slight negative trend present in the relationship between money spent and performance metric achievement. However, with such wide variations, it is likely that this trend is not significant. Further analysis across more of the data available is certainly warranted to explore possible trends.
 
 ----------
 References
