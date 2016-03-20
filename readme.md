@@ -20,7 +20,7 @@ By combining these datasets, we hoped to establish whether or not any correlatio
 ---------------
 Data Processing
 ---------------
-The process by which the two datasets were merged into MariaDB is documented in [this Word Document](dcdatadb_processing_documentation.docx). The resultant database were dumped into a single .sql file [here](databasedump.sql).
+The process by which the two datasets were merged into MariaDB is documented in [this Word Document](dcdatadb_processing_documentation.docx). The resultant database was dumped into a single .sql file [here](databasedump.sql).
 
 -------------
 Data Analysis
