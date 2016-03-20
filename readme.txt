@@ -81,7 +81,7 @@ District of Columbia Open Data. (2013b). DC Purchase Orders - 2013 [Data set].
   Access date: March 17, 2016
 
 License
------------
+-------
 We have decided to list this dataset as Attribution 4.0 International. It is free to use 
 and adapt even for commercial purposes as long as there is attribution to our original 
 dataset.
