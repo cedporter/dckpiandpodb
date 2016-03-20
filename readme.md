@@ -1,3 +1,12 @@
+<style>
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+</style>
+
+
 #DC KPI and PO DB
 A Combination of DC Purchase Order and Performance Metrics Data
 
@@ -49,11 +58,3 @@ District of Columbia Open Data. (2013b). DC Purchase Orders - 2013 [Data set]. R
 
 -----------
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">DCKPIandPODB</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cedporter/dckpiandpodb" property="cc:attributionName" rel="cc:attributionURL">C. Edward Porter / Utkarsha Devkar</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://opendata.dc.gov/" rel="dct:source">http://opendata.dc.gov/</a>.
-
-<style>
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%; }
-</style>
