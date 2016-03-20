@@ -85,3 +85,8 @@ License
 We have decided to list this dataset as Attribution 4.0 International. It is free to use 
 and adapt even for commercial purposes as long as there is attribution to our original 
 dataset.
+
+Citation
+--------
+Porter, C. E. & Devkar, U. (2016). DC KPI and PO DB [Data set]. 
+  Retrieved from https://github.com/cedporter/dckpiandpodb
