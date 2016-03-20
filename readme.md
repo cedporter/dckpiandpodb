@@ -10,7 +10,7 @@ Version 1.0 (2016)
 -------------------
 Description of Data
 -------------------
-The Washington, DC municipal government posts a great number of datasets to their Open Data ([http://opendata.dc.gov/](http://opendata.dc.gov/)) site. From it, we selected two datasets to combine via MariaDB to aid in their analysis. The first dataset contained all of the purchase orders from 2013 totalling over $2500 (District of Columbia Open Data, 2013a). The second contained various key performance indicators for the various DC government agencies (District of Columbia Open Data, 2013b).Both datasets are organized by agency, by which we could link the two.
+The Washington, DC municipal government posts a great number of datasets to their [DC Open Data](http://opendata.dc.gov/) site. From it, we selected two datasets to combine via [MariaDB](https://mariadb.org/) to aid in their analysis. The first dataset contains all of the purchase orders from 2013 totalling over $2500 (District of Columbia Open Data, 2013a). The second contains various key performance indicators (KPI) for the various DC government agencies (District of Columbia Open Data, 2013b). Both datasets are organized by agency, by which we could link the two.
 
 ---------------------
 Why Combine the Data?
