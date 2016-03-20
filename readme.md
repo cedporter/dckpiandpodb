@@ -24,6 +24,7 @@ For analysis of the data present in the two datasets, we combined the two datase
 	
 Descriptive Analysis: We used the command ‘summary ()’ in R to determine the descriptive analysis and ‘hist ()’ to plot the histogram.
 Commands: 
+
     summary(sample$P.O..Totals)
     summary(sample$Fully.Achieved.Percentages)
 
