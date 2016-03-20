@@ -31,7 +31,7 @@ Commands:
 Measure|Mean|Median
 -------|----|------
 Purchase Orders|$45,342,624.38|$40,327,080.93
-Fully Achieved Percentages|64.93|61.77
+Fully Achieved Key Performance Indicators|64.93%|61.77%
 
 In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: ‘plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)’. The figures are as below:
 
