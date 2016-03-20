@@ -10,8 +10,9 @@ datasets to combine via [MariaDB](https://mariadb.org/) to aid in their
 analysis. The first dataset contains all of the purchase orders from 2013 
 totalling over $2500 (District of Columbia Open Data, 2013a). The second 
 contains various key performance indicators (KPI) for the various DC 
-government agencies (District of Columbia Open Data, 2013b). Both datasets 
-are organized by agency, by which we could link the two.
+government agencies (District of Columbia Open Data, 2013b). These have both 
+been converted into two relational tables. We constructed a third table, 
+"agencies," by which we could link the two datasets based on shared agencies.
 
 
 Why Combine the Data?
@@ -21,6 +22,11 @@ correlation exists between the total purchase orders of a particular agency
 and their performance metrics performance, i.e., does money spent equal 
 performance gains?
 
+Data Processing
+---------------
+The process by which the two datasets were merged into MariaDB is documented 
+in dcdatadb_processing_documentation.docx. The resultant database was dumped 
+into databasedump.sql.
 
 Data Analysis
 -------------
