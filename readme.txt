@@ -60,15 +60,28 @@ Fully Achieved Key Performance Indicators |      64.93%    |     61.77%
 
 Conclusion
 ----------
-As seen in Figure three, there is a slight negative trend present in the relationship between money spent and performance metric achievement. However, with such wide variations, it is likely that this trend is not significant. This work represents just a first, cursory exploration into the combined datasets including in the SQL file in this repo. Further analysis across more of the data available is certainly warranted to explore possible trends.
+As seen in Figure three, there is a slight negative trend present in the relationship 
+between money spent and performance metric achievement. However, with such wide 
+variations, it is likely that this trend is not significant. This work represents just 
+a first, cursory exploration into the combined datasets including in the SQL file in 
+this repo. Further analysis across more of the data available is certainly warranted 
+to explore possible trends.
 
 
 References
 ----------
-District of Columbia Open Data. (2013a). DC Agency Performance Data (KPI’s) - 2013 [Data set]. Retrieved from http://opendata.dc.gov/datasets/aab8213fd7de4e548ffecdd4820815a3_0?uiTab=table&orderByFields=Rating+DESC Access date: March 17, 2016
+District of Columbia Open Data. (2013a). DC Agency Performance Data (KPI’s) - 2013 [Data set]. 
+  Retrieved from 
+  http://opendata.dc.gov/datasets/aab8213fd7de4e548ffecdd4820815a3_0?uiTab=table&orderByFields=Rating+DESC 
+  Access date: March 17, 2016
 
-District of Columbia Open Data. (2013b). DC Purchase Orders - 2013 [Data set]. Retrieved from http://opendata.dc.gov/datasets/abc00ed761234b8387ddaeb4e759fc70_0?orderByFields=Agency+ASC Access date: March 17, 2016
+District of Columbia Open Data. (2013b). DC Purchase Orders - 2013 [Data set]. 
+  Retrieved from 
+  http://opendata.dc.gov/datasets/abc00ed761234b8387ddaeb4e759fc70_0?orderByFields=Agency+ASC 
+  Access date: March 17, 2016
 
 License
 -----------
-We have decided to list this dataset as Attribution 4.0 International. It is free to use and adapt even for commercial purposes as long as there is attribution to our original dataset.
+We have decided to list this dataset as Attribution 4.0 International. It is free to use 
+and adapt even for commercial purposes as long as there is attribution to our original 
+dataset.
