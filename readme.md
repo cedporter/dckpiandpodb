@@ -30,6 +30,7 @@ _Commands:_
     summary(sample$Fully.Achieved.Percentages)
 
 _Results_
+
 Measure|Mean|Median
 -------|----|------
 Purchase Orders|$45,342,624.38|$40,327,080.93
