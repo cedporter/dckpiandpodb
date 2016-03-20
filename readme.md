@@ -40,13 +40,13 @@ Purchase Orders|$45,342,624.38|$40,327,080.93
 Fully Achieved Key Performance Indicators|64.93%|61.77%
 
 
-![histogram of total amount spent](assets/pototalshistogram.png)
+![histogram of total amount spent](assets/figure1-pototalshistogram.png)
 *Figure 1. Histogram of total amount spent.*
 
-![Histogram of fully achieved performances](assets/fullyachievedbyagency.png)
+![Histogram of fully achieved performances](assets/figure2-fullyachievedbyagency.png)
 *Figure 2. Histogram of fully achieved performances.*
 
-![Relation between amount spent and performance metric](assets/scatterplot.png )
+![Relation between amount spent and performance metric](assets/figure3-scatterplot.png )
 *Figure 3. Relation between amount spent and performance metric.*
 
 ----------
