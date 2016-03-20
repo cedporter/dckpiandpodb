@@ -29,13 +29,13 @@ For the variable: Fully Achieved Percentages: Mean= 53.09; Median = 51.80
 
 In order to then determine the relation between the amount spent by an agency and the performance rating achieved by an agency, we then used a scatter plot for both variables using the R command: ‘plot(sample$P.O..Totals, sample$Fully.Achieved.Percentages)’. The figures are as below:
 
-![histogram of total amount spent](blob/master/po.png)
+![histogram of total amount spent](po.png)
 Figure 1. Histogram of total amount spent.
 
-![Histogram of fully achieved performances](blob/master/fullyachievedbyagency.png)
+![Histogram of fully achieved performances](fullyachievedbyagency.png)
 Figure 2. Histogram of fully achieved performances.
 
-![Relation between amount spent and performance metric](blob/master/scatterplot.png)
+![Relation between amount spent and performance metric](scatterplot.png)
 Figure 3. Relation between amount spent and performance metric.
 
 As seen in figure three, there is no direct correlation between the total amount spent by an agency and the percentage of the “Fully Achieved Performances” in accordance to the overall performance metrics. According to the graph, some agencies do show higher percentage of “Fully Achieved” performances when the amount spent is greater than the previous agency, however this trend is not consistent for all agencies and hence we can conclude a particular correlation.
