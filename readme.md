@@ -20,17 +20,17 @@ By combining these datasets, we hoped to establish whether or not any correlatio
 -------------
 Data Analysis
 -------------
-For analysis of the data present in the two datasets, we combined the two datasets on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” performance rating. First, recognizing the extraordinarily wide range of PO Totals, we narrowed our scope to only review Agencies with totals between $10 and $100 million in PO Totals. We then calculated the percentage of "Fully Achieved" performance rating in with respect to the total performance rating amongst categories "Fully Achieved", "Partially Achieved", and "Not Achieved." We then created a new Excel worksheet containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance rating. Histograms for each of the variables was the plotted using the R instruction: `hist (sample$P.O..Totals)` and `hist (sample$Percentages)`.
+For analysis of the data present in the two datasets, we combined them on basis of the common variable named ‘Agency’. We then tried to analyze if there is any relationship between the total amount spent (P.O.Totals) by an agency and the percentage of “Fully Achieved” KPIs. First, recognizing the extraordinarily wide range of PO Totals, we narrowed our scope to only review Agencies with totals between $10 and $100 million in PO Totals. We then calculated the percentage of "Fully Achieved" KPIs in with respect to the total performance rating amongst categories "Fully Achieved", "Partially Achieved", and "Not Achieved." We then created a new Excel worksheet containing the name of agency, the total amount spent by agency and the percentage of “Fully Achieved” performance ratings. Histograms for each of the variables was the plotted using the R instruction: `hist (sample$P.O..Totals)` and `hist (sample$Percentages)`.
 	
-_Descriptive Analysis:_ We used the command `summary ()` in R to determine the descriptive analysis and `hist ()` to plot the histogram.
+##Descriptive Analysis
+We used the command `summary ()` in R to determine the descriptive analysis and `hist ()` to plot the histogram.
 
-_Commands:_ 
+**Commands:**
 
     summary(sample$P.O..Totals)
     summary(sample$Fully.Achieved.Percentages)
 
-_Results_
-
+##Results
 Measure|Mean|Median
 -------|----|------
 Purchase Orders|$45,342,624.38|$40,327,080.93
