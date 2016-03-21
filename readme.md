@@ -12,11 +12,6 @@ Description of Data
 -------------------
 The Washington, DC municipal government posts a great number of datasets to their [DC Open Data](http://opendata.dc.gov/) site. From it, we selected two datasets to combine via [MariaDB](https://mariadb.org/) to aid in their analysis. The first dataset contains all of the purchase orders from 2013 totalling over $2500 (District of Columbia Open Data, 2013a). The second contains various key performance indicators (KPI) for the various DC government agencies (District of Columbia Open Data, 2013b). These have both been converted into two relational tables. We constructed a third table, "agencies," by which we could link the two datasets based on shared agencies.
 
-------------------------
-How Do You Use the Data?
-------------------------
-The combined dataset is pretty straightforward to use. Simply spin up a relational database (this has only been tested with MariaDB/MySQL), choose a schema, and run the included .sql script!
-
 ---------------------
 Why Combine the Data?
 ---------------------
@@ -63,6 +58,11 @@ Fully Achieved Key Performance Indicators|64.93%|61.77%
 Conclusion
 ----------
 As seen in Figure three, there is a slight negative trend present in the relationship between money spent and performance metric achievement. However, with such wide variations, it is likely that this trend is not significant. This work represents just a first, cursory exploration into the combined datasets including in the SQL file in this repo. Further analysis across more of the data available is certainly warranted to explore possible trends.
+
+------------------------
+How Do You Use the Data?
+------------------------
+The combined dataset is pretty straightforward to use. Simply spin up a relational database (this has only been tested with MariaDB/MySQL), choose a schema, and run the included .sql script!
 
 ----------
 References
