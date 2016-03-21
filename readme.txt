@@ -73,6 +73,12 @@ a first, cursory exploration into the combined datasets including in the SQL fil
 this repo. Further analysis across more of the data available is certainly warranted 
 to explore possible trends.
 
+How Do You Use the Data?
+------------------------
+The combined dataset is pretty straightforward to use. Simply spin up a relational 
+database (this has only been tested with MariaDB/MySQL), choose a schema, and run the 
+included .sql script!
+
 
 References
 ----------
